@@ -1,0 +1,46 @@
+body{
+    background-color: deepskyblue;
+    text-align: center;
+    /*background-image: url(images/ai.png);*/
+}
+
+table{
+    font-size: 24px;
+    color: currentColor;
+    border: groove;
+    width: 65%;
+    font-family: Cambria, Cochin, Georgia, Times,
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+table, th, td{
+    border: 2px solid;
+}
+
+tr:hover{
+    background-color: burlywood;
+    
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a.active {
+  background-color: #056542;
+  color: white;
+}
